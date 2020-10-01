@@ -4,10 +4,10 @@
 
 Completly useless but so fun!
 
-*- Check it out: ...**
+*- Check it out: ...*
 
 
-##### :point_right: []()
+##### :point_right: [https://88aleksandra88.github.io/html_quine_playground/]()
 
 
 ## inspired by
