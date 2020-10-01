@@ -10,5 +10,5 @@ Completly useless but so fun!
 ##### :point_right: [https://88aleksandra88.github.io/html_quine_playground/]()
 
 
-## inspired by
+## inspired by:
 - Leon Bambrick's brutalist HTML quine
