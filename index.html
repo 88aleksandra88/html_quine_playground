@@ -2,8 +2,8 @@
     <head>
         <title>Quine in HTML</title>
         <style>
-            * {display: block; font-family: aria;}
-            html:before { content: '<html>' }           html:after { content: '<html>' }
+            * { display: block; font-family: aria; }
+            html:before { content: '<html>' }           html:after { content: '</html>' }
             style:before { content : '<style>'; }       style:after { content : '<\/style>'; }
             style { white-space: pre-wrap; }
             head:before { content: '<head>'; }           head:after{ content: '</head>'; }
@@ -11,11 +11,9 @@
             title:before { content: '<title>'; }         title:after{ content: '</title>'; }
             h2:before { content: '<h2>'; }               h2:after{ content: '</h2>'; }
             h4:before { content: '<h4>'; }               h4:after{ content: '</h4>'; }
-
-
-
-
-
+            a:before { content: '<a>'; }                 a:after{ content: '</a>'; }
+            a[href]:before {content: "<a href='" attr(href) "'>"; }
+            }
         </style>
     </head>
     <body>
