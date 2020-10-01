@@ -1,25 +1,105 @@
 <html>
-    <head>
-        <title>Quine in HTML</title>
-        <style>
-            * { display: block; font-family: aria; }
-            html:before { content: '<html>' }           html:after { content: '</html>' }
-            style:before { content : '<style>'; }       style:after { content : '<\/style>'; }
-            style { white-space: pre-wrap; }
-            head:before { content: '<head>'; }           head:after{ content: '</head>'; }
-            body:before { content: '<body>'; }           body:after{ content: '</body>'; }
-            title:before { content: '<title>'; }         title:after{ content: '</title>'; }
-            h2:before { content: '<h2>'; }               h2:after{ content: '</h2>'; }
-            h4:before { content: '<h4>'; }               h4:after{ content: '</h4>'; }
-            a:before { content: '<a>'; }                 a:after{ content: '</a>'; }
-            a[href]:before {content: "<a href='" attr(href) "'>"; }
-            }
-        </style>
-    </head>
-    <body>
-        <h2>This web page prints its own source code! How cool is that?!</h2>
-        <h4>Inspired by
-            <a href="https://secretgeek.github.io/html_wysiwyg/html.html">Brutalist HTML quine</a>
-        </h4>
-    </body>
+  <head>
+    <title>Quine in HTML</title>
+    <style>
+      html {
+        margin: 16px;
+        height: 1%;
+      }
+      * {
+        display: block;
+        font-family: aria;
+      }
+      html:before {
+        content: "<html>";
+      }
+      html:after {
+        content: "</html>";
+      }
+      style:before {
+        content: "<style>";
+      }
+      style:after {
+        content: "<\/style>";
+      }
+      style {
+        white-space: pre-wrap;
+      }
+      head:before {
+        content: "<head>";
+      }
+      head:after {
+        content: "</head>";
+      }
+      body:before {
+        content: "<body>";
+      }
+      body:after {
+        content: "</body>";
+      }
+      title:before {
+        content: "<title>";
+      }
+      title:after {
+        content: "</title>";
+      }
+      h2:before {
+        content: "<h2>";
+      }
+      h2:after {
+        content: "</h2>";
+      }
+      h4:before {
+        content: "<h4>";
+      }
+      h4:after {
+        content: "</h4>";
+      }
+      a:before {
+        content: "<a>";
+      }
+      a:after {
+        content: "</a>";
+      }
+      a[href]:before {
+        content: "<a href='" attr(href) "'>";
+      }
+      p:before {
+        content: "<p>";
+      }
+      p:after {
+        content: "</p>";
+      }
+      b:before {
+        content: "<b>";
+      }
+      b:after {
+        content: "</b>";
+      }
+    </style>
+  </head>
+  <body>
+    <h2>This web page prints its own source code! How cool is that?!</h2>
+    <h4>
+      Inspired by:
+      <a href="https://secretgeek.github.io/html_wysiwyg/html.html"
+        >Brutalist HTML quine</a
+      >
+    </h4>
+    <p>
+      Tootsie roll sweet roll tart marzipan <b>fruitcake croissant</b>.
+      Croissant chocolate bar lemon drops biscuit gummi bears pudding candy
+      gummies. Chupa chups jelly lollipop. Toffee sweet macaroon cheesecake
+      bonbon bonbon chocolate toffee jelly beans. Tootsie roll soufflé chocolate
+      cake chocolate bar pie dragée topping. Cookie icing muffin pie fruitcake
+      halvah marzipan cupcake sweet. Sweet roll pastry jelly-o dessert gummi
+      bears. Marshmallow sesame snaps brownie jelly-o soufflé dragée chocolate
+      bar topping. Dessert cake muffin tart cotton candy gingerbread jelly
+      beans. Donut bear claw donut pudding candy canes. Donut cheesecake sugar
+      plum pastry gummi bears danish topping. Gingerbread gummies tart carrot
+      cake gummies chocolate pudding cake croissant. Sugar plum cotton candy
+      apple pie jelly beans tootsie roll. Muffin bear claw donut fruitcake
+      cookie.
+    </p>
+  </body>
 </html>
