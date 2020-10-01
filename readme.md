@@ -7,7 +7,7 @@ Completly useless but so fun!
 *- Check it out: ...*
 
 
-##### :point_right: [https://88aleksandra88.github.io/html_quine_playground]()
+##### :point_right: [https://88aleksandra88.github.io/html_quine_playground/]()
 
 
 ## inspired by:
