@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Quine in HTML</title>
+        <style>
+            * {display: block; font-family: aria;}
+            html:before { content: '<html>' }           html:after { content: '<html>' }
+            style:before { content : '<style>'; }       style:after { content : '<\/style>'; }
+            style { white-space: pre-wrap; }
+            head:before { content: '<head>'; }           head:after{ content: '</head>'; }
+            body:before { content: '<body>'; }           body:after{ content: '</body>'; }
+            title:before { content: '<title>'; }         title:after{ content: '</title>'; }
+            h2:before { content: '<h2>'; }               h2:after{ content: '</h2>'; }
+            h4:before { content: '<h4>'; }               h4:after{ content: '</h4>'; }
+
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <h2>This web page prints its own source code! How cool is that?!</h2>
+        <h4>Inspired by
+            <a href="https://secretgeek.github.io/html_wysiwyg/html.html">Brutalist HTML quine</a>
+        </h4>
+    </body>
+</html>
